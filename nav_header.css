@@ -166,8 +166,8 @@ h6 {
 }
 
 .right .text {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 26pt;
+    font-weight: 900;
     margin-bottom: 10px;
 }
 
@@ -483,11 +483,33 @@ h3 {
 .card-image img {
     width: 100%;
     transition: transform 0.3s ease-in-out;
+    border-radius: 10px 10px 0 0;
 }
+
+.card:hover .card-image img,
+.card:hover .card-description {
+    transform: translateY(-20%);
+}
+
+.title {
+    transform: none;
+}
+
 
 /* Efeito hover dos cards */
 .card:hover .card-image img {
     transform: translateY(-20%);
+}
+
+span p{
+    font-weight: 900;
+    font-size: 16pt;
+    line-height: 35px;
+}
+
+h6 li{
+    font-weight: lighter;
+   
 }
 
 /* Estilo do título dos cards */
@@ -685,4 +707,8 @@ footer {
     width: 50px;
     padding: 10px;
 
+}
+
+h3 a {
+    color: #e2b02d;
 }
