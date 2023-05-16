@@ -1,9 +1,9 @@
 // Variavel para troca de texto da header
 var typed = new Typed(".auto-typed", {
-    strings: ["Desenvolvedor", "Ilustrador", "Artista 3D"],
-    typeSpeed: 150,
-    backSpeed: 50,
-    loop: true 
+  strings: ["Desenvolvedor", "Ilustrador", "Artista 3D"],
+  typeSpeed: 150,
+  backSpeed: 50,
+  loop: true
 })
 
 // // Variavel para o carrossel

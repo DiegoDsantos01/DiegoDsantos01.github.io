@@ -1,301 +1,305 @@
 /* Para telas menores que 768px */
 @media screen and (max-width: 768px) {
-    .max-width {
-      padding: 0 40px;
-    }
-    
-    .navbar .max-width {
-      flex-wrap: wrap;
-    }
-    
-    .navbar .logo {
-      width: 100%;
-      order: 2;
-      margin-bottom: 30px;
-    }
-    
-    .navbar .menu {
-      width: 100%;
-      order: 3;
-      text-align: center;
-    }
-    
-    .navbar .menu li {
-      display: block;
-      margin-bottom: 10px;
-    }
-    
-    .navbar .menu li a {
-      margin-left: 0;
-    }
-    
-    .home .max-width .row {
-      flex-wrap: wrap;
-      margin-right: -20px;
-    }
-    
-    .home .home-content {
-      width: 100%;
-      padding: 0 20px;
-    }
-    
-    .home .home-content .text-1 {
-      font-size: 22px;
-    }
-    
-    .home .home-content .text-2 {
-      font-size: 50px;
-      margin-left: -2px;
-    }
-    
-    .home .home-content .text-3 {
-      font-size: 28px;
-      margin: 5px 0;
-    }
-    
-    .left img {
-      height: 200px;
-      width: 200px;
-    }
-    
-    .right {
-      width: 100%;
-      margin-top: 30px;
-    }
-    
-    .skills {
-      height: auto;
-    }
-    
-    .progressHtml,
-    .progressCss,
-    .progressJs,
-    .progressReact,
-    .progressNode {
-      width: 100%;
-    }
+  .max-width {
+    padding: 0 40px;
   }
-  
-  /* Para telas maiores que 768px */
-  @media screen and (min-width: 768px) {
-    .max-width {
-      padding: 0 80px;
-    }
-    
-    .navbar .max-width {
-      flex-wrap: nowrap;
-    }
-    
-    .navbar .logo {
-      width: auto;
-      margin-bottom: 0;
-    }
-    
-    .navbar .menu {
-      width: auto;
-      order: 2;
-      margin-left: auto;
-    }
-    
-    .navbar .menu li {
-      margin-left: 25px;
-      display: inline-block;
-    }
-    
-    .home .max-width .row {
-      margin-right: 0;
-    }
-    
-    .home .home-content {
-      width: 50%;
-      padding-right: 20px;
-    }
-    
-    .home .home-content .text-1 {
-      font-size: 27px;
-    }
-    
-    .home .home-content .text-2 {
-      font-size: 75px;
-      margin-left: -3px;
-    }
-    
-    .home .home-content .text-3 {
-      font-size: 40px;
-      margin: 5px 0;
-    }
-    
-    .left img {
-      height: 300px;
-      width: 300px;
-    }
-    
-    .right {
-      width: 45%;
-      margin-top: 0;
-    }
-    
-    .skills {
-      height: 900px;
-    }
+
+  .navbar .max-width {
+    flex-wrap: wrap;
   }
+
+  .navbar .logo {
+    width: 100%;
+    order: 2;
+    margin-bottom: 30px;
+  }
+
+  .navbar .menu {
+    width: 100%;
+    order: 3;
+    text-align: center;
+  }
+
+  .navbar .menu li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .navbar .menu li a {
+    margin-left: 0;
+  }
+
+  .home .max-width .row {
+    flex-wrap: wrap;
+    margin-right: -20px;
+  }
+
+  .home .home-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .home .home-content .text-1 {
+    font-size: 22px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 50px;
+    margin-left: -2px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 28px;
+    margin: 5px 0;
+  }
+
+  .left img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .skills {
+    height: auto;
+  }
+
+  .progressHtml,
+  .progressCss,
+  .progressJs,
+  .progressReact,
+  .progressNode {
+    width: 100%;
+  }
+}
+
+/* Para telas maiores que 768px */
+@media screen and (min-width: 768px) {
+  .max-width {
+    padding: 0 80px;
+  }
+
+  .navbar .max-width {
+    flex-wrap: nowrap;
+  }
+
+  .navbar .logo {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .navbar .menu {
+    width: auto;
+    order: 2;
+    margin-left: auto;
+  }
+
+  .navbar .menu li {
+    margin-left: 25px;
+    display: inline-block;
+  }
+
+  .home .max-width .row {
+    margin-right: 0;
+  }
+
+  .home .home-content {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .home .home-content .text-1 {
+    font-size: 27px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 75px;
+    margin-left: -3px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+
+  .left img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .right {
+    width: 45%;
+    margin-top: 0;
+  }
+
+  .skills {
+    height: 900px;
+  }
+}
+
 /* Para telas com largura menor que 768px */
 @media (max-width: 768px) {
 
-    .area {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background: black;
-    }
-  
-    .card {
-      width: 100%;
-      margin: 10px 0;
-      box-sizing: border-box;
-      float: none;
-    }
-  
-    .services, #projects {
-      height: auto;
-    }
-  
-    /* @media (max-width: 768px) { */
-        .carousel {
-          width: 100%;
-          max-width: 600px;
-        }
-      
-        .carousel-inner {
-          width: 100%;
-        }
-      
-        .carousel-item {
-          max-width: 100%;
-          cursor: pointer;
-          transition: transform 0.5s;
-        }
-      
-        .carousel-item img {
-          max-width: 100%;
-          height: auto;
-        }
-      h3{
-        text-align: center;
-      }
-    }
+  .area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    float: none;
+  }
+
+  .services,
+  #projects {
+    height: auto;
+  }
+
+  /* @media (max-width: 768px) { */
+  .carousel {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .carousel-inner {
+    width: 100%;
+  }
+
+  .carousel-item {
+    max-width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}
 
 
 
-    /* Responsividade para telas menores que 768px */
+/* Responsividade para telas menores que 768px */
 @media (max-width: 768px) {
-    .max-width {
-      padding: 0 30px;
-    }
-  
-    .navbar .menu {
-      display: none;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      padding: 10px 0;
-      background-color: #000008;
-      text-align: center;
-    }
-    .logo{
-        text-align: center;
-    }
-
-    .navbar .menu li {
-      display: block;
-      margin: 10px 0;
-    }
-  
-    .navbar .menu li a {
-      font-size: 20px;
-      margin: 5px;
-    }
-  
-    .navbar .menu-icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 20px;
-      cursor: pointer;
-      color: #fff;
-      font-size: 25px;
-    }
-  
-    .navbar .menu-btn {
-      display: none;
-    }
-  
-    .home .home-content {
-      flex-direction: column;
-      text-align: center;
-      padding-top: 150px;
-    }
-  
-    .home .home-content .text-1 {
-      font-size: 18px;
-    }
-  
-    .home .home-content .text-2 {
-      font-size: 40px;
-    }
-  
-    .home .home-content .text-3 {
-      font-size: 25px;
-    }
-  
-    .about-content {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .left img {
-      height: 200px;
-      width: 200px;
-    }
-  
-    .right {
-      width: 100%;
-      margin-top: 30px;
-    }
-  
-    .right .text {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-  
-    .skills {
-      height: auto;
-      padding-bottom: 50px;
-    }
-  
-    .skills .col-3 {
-      width: 100%;
-      margin: 20px 0;
-    }
-  
-    .progressHtml,
-    .progressCss,
-    .progressJs {
-      width: 50%;
-    }
-  
-    .progressHtml::before,
-    .progressCss::before,
-    .progressJs::before {
-      width: 90%;
-    }
+  .max-width {
+    padding: 0 30px;
   }
 
-  /*  Responsividade do background */
-  @media (max-width: 768px) {
-    .home {
-      background-image: url(img/projetos/manopla_vi_c.jpg);
-    }
+  .navbar .menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000008;
+    text-align: center;
   }
+
+  .logo {
+    text-align: center;
+  }
+
+  .navbar .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navbar .menu li a {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .navbar .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .navbar .menu-btn {
+    display: none;
+  }
+
+  .home .home-content {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .home .home-content .text-1 {
+    font-size: 18px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 40px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 25px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .right .text {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .skills {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .skills .col-3 {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .progressHtml,
+  .progressCss,
+  .progressJs {
+    width: 50%;
+  }
+
+  .progressHtml::before,
+  .progressCss::before,
+  .progressJs::before {
+    width: 90%;
+  }
+}
+
+/*  Responsividade do background */
+@media (max-width: 768px) {
+  .home {
+    background-image: url(img/projetos/manopla_vi_c.jpg);
+  }
+}

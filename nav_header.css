@@ -50,7 +50,7 @@ section {
     font-weight: 600;
 }
 
-.navbar .logo a:hover{
+.navbar .logo a:hover {
     color: #e4a531;
     font-size: 35px;
     font-weight: 600;
@@ -495,7 +495,7 @@ h3 {
     /* padding: 20px; */
 }
 
-.card-description{
+.card-description {
     padding: 20px;
 }
 
@@ -508,14 +508,14 @@ h3 {
     height: 800px;
     width: 100%;
     background-color: #000008;
-    
+
 }
 
 .services h2 {
     text-align: center;
     color: #fff;
     font-size: 30pt;
-    
+
 }
 
 /*  Div dos Projetos */
@@ -530,11 +530,12 @@ h3 {
     color: #fff;
 }
 
-#projects h2{
+#projects h2 {
     text-align: center;
     font-size: 30pt;
     /* padding-bottom: 80px; */
 }
+
 #projects img {
     width: 20%;
 }
@@ -555,15 +556,15 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-  
-  .carousel-item {
+}
+
+.carousel-item {
     max-width: 30%;
     cursor: pointer;
     transition: transform 0.5s;
-  }
-  
-  .modal {
+}
+
+.modal {
     display: none;
     position: fixed;
     z-index: 999;
@@ -572,9 +573,9 @@ h3 {
     width: 100%;
     height: 200%;
     background-color: rgba(0, 0, 0, 0.9);
-  }
-  
-  .modal img {
+}
+
+.modal img {
     display: block;
     max-width: 100%;
     max-height: 100%;
@@ -583,9 +584,9 @@ h3 {
     width: auto;
     height: calc(100vh - 100px);
     transform: scale(2.1);
-  }
-  
-  .modal .close {
+}
+
+.modal .close {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -593,8 +594,8 @@ h3 {
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
-  }
-  
+}
+
 
 .carousel-item:hover {
     transform: scale(1.1);
@@ -632,12 +633,15 @@ h3 {
     70% {
         transform: translateX(-70%);
     }
+
     80% {
         transform: translateX(-80%);
     }
+
     90% {
         transform: translateX(-90%);
     }
+
     100% {
         transform: translateX(-100%);
     }
@@ -646,7 +650,7 @@ h3 {
 /*  CSS do footer */
 
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -657,17 +661,15 @@ footer{
     height: 120px;
 }
 
-.social-icons{
+.social-icons {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.social-icons img{
+.social-icons img {
     width: 50px;
     padding: 10px;
-    
+
 }
-
-
