@@ -45,16 +45,12 @@ section {
     justify-content: space-between;
 }
 
-.navbar .logo a {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
+.navbar .logo img {
+    width: 50px;
 }
 
-.navbar .logo a:hover {
-    color: #e4a531;
-    font-size: 35px;
-    font-weight: 600;
+.navbar .logo h2 {
+    display: none;
 }
 
 .navbar .menu li {
