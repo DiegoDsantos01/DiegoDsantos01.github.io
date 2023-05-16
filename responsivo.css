@@ -305,12 +305,10 @@
   }
   .footer-text{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
-  .footer-text p{
-    text-align: center;
-  }
-}
 
 /*  Responsividade do background */
 @media (max-width: 768px) {
@@ -318,4 +316,5 @@
     background-image: url(img/projetos/manopla_vi_c.jpg);
     background-position: center;
   }
+}
 }
