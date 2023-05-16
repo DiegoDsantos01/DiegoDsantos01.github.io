@@ -58,6 +58,18 @@
     font-weight: 600;
     color: #e4a531;
 }
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h6{
+  font-size: 14pt;
+  font-weight: normal;
+  width: 80%;
+}
   .left img {
     height: 200px;
     width: 200px;
