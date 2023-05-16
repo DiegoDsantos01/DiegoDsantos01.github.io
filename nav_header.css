@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.about,
+.services,
+.skills,
+.projects,
+.contact {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*  Navbar  */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a:hover{
+    color: #e4a531;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #e4a531;
+}
+
+/*  Home  */
+
+.home {
+    display: flex;
+    background: url("img/fundo_1.jpg") no-repeat center;
+    background-size: cover;
+    height: 1000px;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.home .max-width {
+    width: 100%;
+    display: flex;
+}
+
+.home .max-width .row {
+    margin-right: 0;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home-content img {
+    width: 40px;
+    padding: 5px;
+}
+
+.auto-typed {
+    font-size: 40pt;
+    font-weight: 600;
+    color: #e4a531;
+}
+
+/* Sobre */
+
+.about {
+    background-color: #000008;
+    color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 0 0px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 30pt;
+    padding-bottom: 80px;
+
+}
+
+.left img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid #e2b02d;
+}
+
+.right {
+    width: 45%;
+    color: #fff;
+}
+
+.right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.right p {
+    text-align: justify;
+
+}
+
+/* Barra de progresso */
+
+.skills {
+    color: #00000a;
+    width: 100%;
+    background-color: #00000a;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills h2 {
+    color: #fff;
+    padding-bottom: 80px;
+    font-size: 30pt;
+}
+
+h3 {
+    color: #fff;
+}
+
+/*  Barra de progresso do HTML */
+.progressHtml {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progressHtml {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progressHtml::before {
+    content: "";
+    width: 85%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+/* Barra de progresso do CSS */
+
+.progressCss {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progressCss {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progressCss::before {
+    content: "";
+    width: 80%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+/* Barra de progresso do Javascript */
+
+.progressJs {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progressJs {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progressJs::before {
+    content: "";
+    width: 75%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+/* Barra de progresso do Banco de Dados */
+
+.progressBd {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progressBd {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progressBd::before {
+    content: "";
+    width: 60%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+/* Barra de progresso do Photoshop */
+
+.progressPh {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progressPh {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progressPh::before {
+    content: "";
+    width: 80%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+/* Barra de progresso do Illustrator */
+
+.progressAi {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progressAi {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progressAi::before {
+    content: "";
+    width: 50%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+/* Barra de progresso do Modelagem 3D */
+
+.progress3d {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.progress3d {
+    height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+}
+
+.progress3d::before {
+    content: "";
+    width: 80%;
+    background: #e2b02d;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #e2b02d;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #e2b02d,
+        0 0 .2rem #e2b02d,
+        0 0 2rem #e2b02d,
+        0 0 0.8rem #e2b02d,
+        0 0 2.8rem #e2b02d,
+        inset 0 0 1.3rem #e2b02d;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background: black;
+}
+
+/* Estilo base dos cards */
+
+.card {
+    background-color: #f7e9c6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: calc(33.33% - 40px);
+    /* 3 cards em uma linha com 20px de margem */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    vertical-align: top;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    /* border: 4px solid #e2b02d; Adiciona borda sólida */
+}
+
+/* Estilo da imagem do card */
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito hover dos cards */
+.card:hover .card-image img {
+    transform: translateY(-20%);
+}
+
+/* Estilo do título dos cards */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto dos cards */
+.card-description p {
+    font-size: 16px;
+    line-height: 24px;
+    /* padding: 20px; */
+}
+
+.card-description{
+    padding: 20px;
+}
+
+/* Estilo do contêiner dos cards */
+.serv-content {
+    display: block;
+}
+
+.services {
+    height: 800px;
+    width: 100%;
+    background-color: #000008;
+    
+}
+
+.services h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30pt;
+    
+}
+
+/*  Div dos Projetos */
+
+#projects {
+    height: 800px;
+    background-color: #00000a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #fff;
+}
+
+#projects h2{
+    text-align: center;
+    font-size: 30pt;
+    /* padding-bottom: 80px; */
+}
+#projects img {
+    width: 20%;
+}
+
+
+/* CSS do Carrossel */
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 4px solid #fff;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .carousel-item {
+    max-width: 30%;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .modal img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    object-fit: contain;
+    width: auto;
+    height: calc(100vh - 100px);
+    transform: scale(2.1);
+  }
+  
+  .modal .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+.carousel-item:hover {
+    transform: scale(1.1);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-20%);
+    }
+
+    30% {
+        transform: translateX(-20%);
+    }
+
+    40% {
+        transform: translateX(-40%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    60% {
+        transform: translateX(-60%);
+    }
+
+    70% {
+        transform: translateX(-70%);
+    }
+    80% {
+        transform: translateX(-80%);
+    }
+    90% {
+        transform: translateX(-90%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*  CSS do footer */
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000005;
+    color: white;
+    height: 120px;
+}
+
+.social-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons img{
+    width: 50px;
+    padding: 10px;
+    
+}
+
+
