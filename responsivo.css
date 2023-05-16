@@ -303,6 +303,9 @@
   .progressJs::before {
     width: 90%;
   }
+  .footer-text{
+    text-align: center;
+  }
 }
 
 /*  Responsividade do background */
