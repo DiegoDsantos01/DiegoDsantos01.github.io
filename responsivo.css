@@ -138,6 +138,11 @@
   .skills {
     height: 900px;
   }
+
+  .text{
+    text-align: center;
+  }
+
 }
 
 /* Para telas com largura menor que 768px */
@@ -163,6 +168,9 @@
     height: auto;
   }
 
+  #projects h2{
+    padding-bottom: 50px;
+  }
   /* @media (max-width: 768px) { */
   .carousel {
     width: 100%;
@@ -301,5 +309,6 @@
 @media (max-width: 768px) {
   .home {
     background-image: url(img/projetos/manopla_vi_c.jpg);
+    background-position: center;
   }
 }
