@@ -6,32 +6,27 @@ var typed = new Typed(".auto-typed", {
   loop: true
 })
 
-// // Variavel para o carrossel
-// const carouselItems = document.querySelectorAll(".carousel-item");
-// carouselItems.forEach(item => {
-//   item.addEventListener("click", () => {
-//     const imageUrl = item.getAttribute("src");
-//     const modal = document.createElement("div");
-//     modal.classList.add("modal");
-//     const modalContent = `
-//       <img src="${imageUrl}" alt="">
-//       <span class="close">&times;</span>
-//     `;
-//     modal.innerHTML = modalContent;
-//     document.body.appendChild(modal);
-//     const closeModal = () => {
-//       document.body.removeChild(modal);
-//     };
-//     const closeButton = modal.querySelector(".close");
-//     closeButton.addEventListener("click", closeModal);
-//     modal.addEventListener("click", closeModal);
-//   });
-// });
+
 const carousel = document.querySelector(".carousel");
 const carouselInner = document.querySelector(".carousel-inner");
 const modal = document.querySelector(".modal");
 
 const images = [
+  "img/projetos/sonic_copo.jpg",
+  "img/projetos/sonic_31.jpg",
+  "img/projetos/peridot.jpg",
+  "img/projetos/jadeGhost.jpg",
+  "img/projetos/eevee_suco.jpg",
+  "img/projetos/senseis.jpg",
+  "img/projetos/Puff.png",
+  "img/projetos/Vi.jpg",
+  "img/projetos/Zhongli.png",
+  "img/projetos/squirtle_niver.jpg",
+  "img/projetos/squirtle.png",
+  "img/projetos/klee_frente.jpg",
+  "img/projetos/zhong.png",
+  "img/projetos/manopla_vi_c.jpg",
+  "img/projetos/manopla_vi_f.jpg",
   "img/projetos/sonic_copo.jpg",
   "img/projetos/sonic_31.jpg",
   "img/projetos/peridot.jpg",
@@ -63,6 +58,7 @@ carouselItems.forEach((item) => {
   const clone = item.cloneNode(true);
   carouselInner.appendChild(clone);
 });
+
 
 // Move as imagens para a esquerda para criar o efeito de rotação
 let position = 0;
