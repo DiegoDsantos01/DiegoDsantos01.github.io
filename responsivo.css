@@ -306,6 +306,10 @@
   .footer-text{
     text-align: center;
   }
+
+  .footer-text p{
+    text-align: center;
+  }
 }
 
 /*  Responsividade do background */
