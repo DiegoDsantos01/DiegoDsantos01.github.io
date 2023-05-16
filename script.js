@@ -1,7 +1,7 @@
 // Variavel para troca de texto da header
 var typed = new Typed(".auto-typed", {
   strings: ["Desenvolvedor", "Ilustrador", "Artista 3D"],
-  typeSpeed: 150,
+  typeSpeed: 50,
   backSpeed: 50,
   loop: true
 })
